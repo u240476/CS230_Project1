@@ -9,26 +9,27 @@
 <body>
 <header>
     <nav>
-        Visit <a href="C:\Users\joshm\Documents\CS230_project1\index.html">Home</a>
+        <a href="index.html">Index</a> 
+        <a href="contact.html">Navigation</a>
     </nav>
 </header>
-    
     <main>
         <form>
             <h4> please input contact details</h4>
             <p>
-                <label for="user_name">Name:</label><br>
+                <label for="user_name" id="user_name">Name:</label><br>
                 <input type="text" name="user_name" id="user_name">
             </p>
             <p>
-                <label for="user_email">Email:</label><br>
+                <label for="user_email" id="user_email">Email:</label><br>
                 <input type="email" name="user_email" id="user_email">
             </p>
             <p>
-                <label for="user_message">Message</label><br>
-                <input type="message" name="user_message" id="user_message">
+                <label for="user_message" id="user_message">Message:</label><br>
+                <textarea id="user_message" name="user_message" cols="22" rows="5"></textarea><br>
             </p>
-            <button>Submit</button>
+           
+            <button >Submit</button>
         </form>
     </main>
     <footer>
